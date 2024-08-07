@@ -17,7 +17,7 @@
           <div class="absolute bg-[#D1D5DB] w-full h-full"></div>
         </div>
         <!-- bottom block -->
-        <div class="flex flex-col w-full h-auto py-[16px] px-[12px] group">
+        <div class="flex flex-col py-[16px] px-[12px] group overflow-hidden">
           <div class="flex flex-row justify-between items-center mb-2">
             <div>
               <p class="font-normal text-[14px] leading-[20px]">Subheader</p>
@@ -27,7 +27,12 @@
               <p class="text-[18px] leading-[21.78px] font-medium">Text</p>
             </div>
           </div>
-          <div class="transition-all duration-500 ease-in-out border-t border-[#E5E7EB] hidden group-hover:block">
+          <div class="flex flex-col justify-center items-center mt-2 transition-opacity easy-in-out group-hover:transition-opacity-0 group-hover:hidden">
+            <button class="w-full h-[46px] text-white bg-[#6B7280] rounded text-[15px] leading-[18.15px] font-semibold">Button</button>
+            <p class="mt-1 text-[12px] leading-[16px] font-normal">Sub text</p>
+          </div>
+          <!-- SlideInUp block -->
+          <div class="h-full duration-500 ease-in-out border-t border-[#E5E7EB] translate-y-full hidden group-hover:block group-hover:translate-y-0">
             <div class="flex flex-row justify-between items-center my-1">
               <p>Text</p>
               <p>Link</p>
@@ -44,14 +49,10 @@
               <p>Text</p>
               <p>Link</p>
             </div>
-            <div class="flex flex-col justify-center items-center mt-2">
+            <div class="flex flex-col h-full justify-center items-center m-0 p-0">
               <button class="w-full h-[46px] text-white bg-[#6B7280] rounded text-[15px] leading-[18.15px] font-semibold">Button</button>
               <p class="mt-1 text-[12px] leading-[16px] font-normal">Sub text</p>
             </div>
-          </div>
-          <div class="flex flex-col justify-center items-center mt-2 group-hover:hidden">
-            <button class="w-full h-[46px] text-white bg-[#6B7280] rounded text-[15px] leading-[18.15px] font-semibold">Button</button>
-            <p class="mt-1 text-[12px] leading-[16px] font-normal">Sub text</p>
           </div>
         </div>
       </div>
