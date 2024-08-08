@@ -6,21 +6,24 @@
   <link rel="icon" type="image/png" sizes="32x32" href="https://adwin.agency/favicon-32x32.png">
   <title>Тестовое задание</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="flex justify-center items-center w-screen h-screen">
+  <div class="flex justify-center items-center w-screen h-screen font-[Inter]">
     <div class="flex w-[70vw] h-[50vh]">
-      <div class="flex flex-col min-w-[315px] max-w-[440px] w-[316px] h-[380px] shadow-md shadow-[#00000026] relative">
+      <div class="flex flex-col justify-center min-w-[315px] max-w-[440px] w-[316px] h-[380px] shadow-md shadow-[#00000026] relative">
         <!-- top block -->
         <div class="relative h-[222px]">
           <button class="z-10 absolute top-3 right-3 w-[59px] h-[28px] bg-white rounded border border-[#E5E7EB] text-[12px] leading-[16px] font-medium">button</button>
           <div class="absolute bg-[#D1D5DB] w-full h-full"></div>
         </div>
         <!-- bottom block -->
-        <div class="flex flex-col py-[16px] px-[12px] group overflow-hidden">
+        <div class="z-10 flex flex-col py-[16px] px-[12px] group overflow-hidden h-[158px] transition ease-in-out delay-75 duration-500 hover:h-[108%] hover:transition-all">
           <div class="flex flex-row justify-between items-center mb-2">
             <div>
-              <p class="font-normal text-[14px] leading-[20px]">Subheader</p>
+              <p class="font-normal text-[14px] leading-[20px] text-[#6B7280]">Subheader</p>
               <h1 class="text-[20px] leading-[24.2px] font-medium text-[#1F2937]">Header</h1>
             </div>
             <div>
@@ -32,24 +35,24 @@
             <p class="mt-1 text-[12px] leading-[16px] font-normal">Sub text</p>
           </div>
           <!-- SlideInUp block -->
-          <div class="h-full duration-500 ease-in-out border-t border-[#E5E7EB] translate-y-full hidden group-hover:block group-hover:translate-y-0">
-            <div class="flex flex-row justify-between items-center my-1">
-              <p>Text</p>
-              <p>Link</p>
+          <div class="h-full transition-all duration-500 ease-in-out border-t border-[#E5E7EB] translate-y-full transition-opacity opacity-0 group-hover:block group-hover:translate-y-0 group-hover:transition-opacity group-hover:opacity-100">
+            <div class="flex flex-row justify-between items-center my-1 text-[14px] leading-[20px]">
+              <p class="text-[#6B7280]">Text</p>
+              <p class="text-[#1F2937]">Link</p>
             </div>
-            <div class="flex flex-row justify-between items-center my-1">
-              <p>Text</p>
-              <p>Link</p>
+            <div class="flex flex-row justify-between items-center my-1 text-[14px] leading-[20px]">
+              <p class="text-[#6B7280]">Text</p>
+              <p class="text-[#1F2937]">Link</p>
             </div>
-            <div class="flex flex-row justify-between items-center my-1">
-              <p>Text</p>
-              <p>Link</p>
+            <div class="flex flex-row justify-between items-center my-1 text-[14px] leading-[20px]">
+              <p class="text-[#6B7280]">Text</p>
+              <p class="text-[#1F2937]">Link</p>
             </div>
-            <div class="flex flex-row justify-between items-center my-1">
-              <p>Text</p>
-              <p>Link</p>
+            <div class="flex flex-row justify-between items-center my-1 text-[14px] leading-[20px]">
+              <p class="text-[#6B7280]">Text</p>
+              <p class="text-[#1F2937]">Link</p>
             </div>
-            <div class="flex flex-col h-full justify-center items-center m-0 p-0">
+            <div class="flex flex-col justify-center items-center m-0 p-0">
               <button class="w-full h-[46px] text-white bg-[#6B7280] rounded text-[15px] leading-[18.15px] font-semibold">Button</button>
               <p class="mt-1 text-[12px] leading-[16px] font-normal">Sub text</p>
             </div>
